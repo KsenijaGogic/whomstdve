@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Whomst'd've",
+    "description": "For those that want the finer grammar in life.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
